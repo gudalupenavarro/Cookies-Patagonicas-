@@ -16,3 +16,11 @@ const stockProductos = [
         precio: 50,
         img: "IMAGENES/cookiesSim3.jpg",
       },
+      {
+        id: 3,
+        nombre: "Canelo",
+        cantidad: 1,
+        desc: "Cookie de canela, nuez y bañado de chocolate blanco",
+        precio: 50,
+        img: "IMAGENES/cookienuez.png",
+      },
