@@ -81,3 +81,4 @@ const stockProductos = [
         img: "IMAGENES/cookiefrutos.png",
       },
   ]    
+  let carrito = [];
