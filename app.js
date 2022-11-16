@@ -72,3 +72,12 @@ const stockProductos = [
         precio: 50,
         img: "IMAGENES/cookieChocoNegro.png",
       },
+      {
+        id: 10,
+        nombre: "Tulipanes",
+        cantidad: 1,
+        desc: "Cookie de frutos rojos",
+        precio: 50,
+        img: "IMAGENES/cookiefrutos.png",
+      },
+  ]    
