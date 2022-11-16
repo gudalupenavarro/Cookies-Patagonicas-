@@ -8,3 +8,7 @@ a{
 .alerta{
     font-weight:700;
 }
+body{
+    background-color:rgb(141, 189, 221);
+    overflow-x: hidden;
+}
