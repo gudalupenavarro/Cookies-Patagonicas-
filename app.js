@@ -187,3 +187,24 @@ const stockProductos = [
         `;
       });
     }
+
+    
+    if (carrito.length === 0) {
+        console.log("Nada");
+        modalBody.innerHTML = `
+        <p class="text-center text-primary parrafo">¡Aun no agregaste nada!</p>
+        `;
+      } else {
+        console.log("Algo");
+      }
+      carritoContenedor.textContent = carrito.length;
+    
+      if (precioTotal) {
+        precioTotal.innerText = carrito.reduce(
+          (acc, prod) => acc + prod.cantidad * prod.precio,
+          0
+        );
+      }
+    
+      guardarStorage();
+    };
