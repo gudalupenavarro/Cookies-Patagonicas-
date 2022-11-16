@@ -95,3 +95,9 @@ const stockProductos = [
   if (activarFuncion) {
     activarFuncion.addEventListener("click", procesarPedido);
   }
+  document.addEventListener("DOMContentLoaded", () => {
+    carrito = JSON.parse(localStorage.getItem("carrito")) || [];
+  
+    mostrarCarrito();
+    document.querySelector("#activarFuncion").click(procesarPedido);
+  });
