@@ -3,3 +3,7 @@ function showSearch(){
     input.classList.toggle("show");
 
 }
+
+
+let btn =document.getElementById("btn");
+let click = false;
