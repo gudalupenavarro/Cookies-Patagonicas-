@@ -32,3 +32,11 @@ const stockProductos = [
         precio: 50,
         img: "IMAGENES/cookienavideña.png",
       },
+      {
+        id: 5,
+        nombre: "Calandrinia",
+        cantidad: 1,
+        desc: "Cookie bañada de chocolate blanco y chispas de chocolate",
+        precio: 50,
+        img: "IMAGENES/cookieblanco.png",
+      },
