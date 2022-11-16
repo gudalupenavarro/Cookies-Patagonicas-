@@ -24,3 +24,7 @@ body{
 .modal-content{
     background-color: #E3D8D6;
 }
+.parrafo{
+    font-weight: 900;
+    font-style: italic;
+}
