@@ -1,3 +1,7 @@
 .imagen{
     max-width:100%;
 }
+
+a{
+    cursor:pointer;
+}
