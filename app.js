@@ -216,3 +216,26 @@ const stockProductos = [
         carrito = carrito.filter((juego) => juego.id !== juegoId);
         mostrarCarrito();
       }
+      function procesarPedido() {
+        carrito.forEach((prod) => {
+          const listaCompra = document.querySelector("#lista-compra tbody");
+          const { id, nombre, precio, img, cantidad } = prod;
+          if (listaCompra) {
+            const row = document.createElement("tr");
+            row.innerHTML += `
+                    <td>
+                    <img class="img-fluid img-carrito" src="${img}"/>
+                    </td>
+                    <td>${nombre}</td>
+                  <td>${precio}</td>
+                  <td>${cantidad}</td>
+                  <td>${precio * cantidad}</td>
+                  `;
+            listaCompra.appendChild(row);
+          }
+        });
+        totalProceso.innerText = carrito.reduce(
+          (acc, prod) => acc + prod.cantidad * prod.precio,
+          0
+        );
+      }
