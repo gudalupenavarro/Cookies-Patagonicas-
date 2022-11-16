@@ -24,3 +24,11 @@ const stockProductos = [
         precio: 50,
         img: "IMAGENES/cookienuez.png",
       },
+      {
+        id: 4,
+        nombre: "Lenga",
+        cantidad: 1,
+        desc: "Cookie especial navideña",
+        precio: 50,
+        img: "IMAGENES/cookienavideña.png",
+      },
