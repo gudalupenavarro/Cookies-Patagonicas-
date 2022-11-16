@@ -211,3 +211,8 @@ const stockProductos = [
     function guardarStorage() {
         localStorage.setItem("carrito", JSON.stringify(carrito));
       }
+      function eliminarProducto(id) {
+        const juegoId = id;
+        carrito = carrito.filter((juego) => juego.id !== juegoId);
+        mostrarCarrito();
+      }
