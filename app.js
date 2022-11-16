@@ -145,3 +145,20 @@ const stockProductos = [
       `;
     }
   });
+  
+  const agregarProducto = (id) => {
+    const existe = carrito.some(prod => prod.id === id)
+  
+    if(existe){
+      const prod = carrito.map(prod => {
+        if(prod.id === id){
+          prod.cantidad++
+        }
+      })
+    } else {
+      const item = stockProductos.find((prod) => prod.id === id)
+      carrito.push(item)
+    }
+    mostrarCarrito()
+  
+  };
