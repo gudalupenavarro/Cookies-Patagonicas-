@@ -101,3 +101,30 @@ const stockProductos = [
     mostrarCarrito();
     document.querySelector("#activarFuncion").click(procesarPedido);
   });
+
+  if(formulario){
+    formulario.addEventListener('submit', enviarCompra)
+  }
+  
+  
+  if (vaciarCarrito) {
+    vaciarCarrito.addEventListener("click", () => {
+      carrito.length = [];
+      mostrarCarrito();
+    });
+  }
+  
+  if (procesarCompra) {
+    procesarCompra.addEventListener("click", () => {
+      if (carrito.length === 0) {
+        Swal.fire({
+          title: "¡Tu carrito está vacio!",
+          text: "Compra algo para continuar con la compra",
+          icon: "error",
+          confirmButtonText: "Aceptar",
+        });
+      } else {
+        location.href = "compra.html";
+      }
+    });
+  }
