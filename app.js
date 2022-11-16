@@ -48,3 +48,11 @@ const stockProductos = [
         precio: 50,
         img: "IMAGENES/cookiefrutillaychoco.png",
       },
+      {
+        id: 7,
+        nombre: "Lavanda",
+        cantidad: 1,
+        desc: "Super Cookie de chocolate rellena de crema con pedacitos de oreo",
+        precio: 50,
+        img: "IMAGENES/cookierellena.png",
+      },
