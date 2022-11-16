@@ -64,3 +64,11 @@ const stockProductos = [
         precio: 50,
         img: "IMAGENES/cookieRosaMosqueta.png",
       },
+      {
+        id: 9,
+        nombre: "Mutisia",
+        cantidad: 1,
+        desc: "Mega Cookie Chocolotosa",
+        precio: 50,
+        img: "IMAGENES/cookieChocoNegro.png",
+      },
