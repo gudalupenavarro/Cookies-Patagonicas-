@@ -40,3 +40,11 @@ const stockProductos = [
         precio: 50,
         img: "IMAGENES/cookieblanco.png",
       },
+      {
+        id: 6,
+        nombre: "Chilko",
+        cantidad: 1,
+        desc: "Cookie  de frutilla con chipas de chocolate",
+        precio: 50,
+        img: "IMAGENES/cookiefrutillaychoco.png",
+      },
