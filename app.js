@@ -56,3 +56,11 @@ const stockProductos = [
         precio: 50,
         img: "IMAGENES/cookierellena.png",
       },
+      {
+        id: 8,
+        nombre: "Silvestre",
+        cantidad: 1,
+        desc: "cookie con rosa mosqueta",
+        precio: 50,
+        img: "IMAGENES/cookieRosaMosqueta.png",
+      },
