@@ -1,9 +1,10 @@
 const stockProductos = [
+ 
     {
         id: 1,
-        nombre: "Crash Bandicoot",
+        nombre: "Lupino",
         cantidad: 1,
-        desc: "Juego plataformero, niveles dificiles",
-        precio: 1200,
-        img: "img/Crash.jpg",
+        desc: "Cookie con chispas de chocolate",
+        precio: 50,
+        img: "IMAGENES/cookieSim2.jpg",
       },
